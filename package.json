@@ -1,0 +1,35 @@
+{
+  "name": "michelle-jacoedo-gmbh",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timo-Celik/michelle-jacoedo-gmbh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Timo-Celik/michelle-jacoedo-gmbh/issues"
+  },
+  "homepage": "https://github.com/Timo-Celik/michelle-jacoedo-gmbh#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "page-flip": "^2.0.7"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "sass": "^1.32.13",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
