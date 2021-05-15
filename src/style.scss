@@ -1,14 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,100;1,100&display=swap');
 
 :root {
   color: #F2ECE9;
 }
 
+em {
+  font-style: italic;
+}
+
 h1 {
   font-family: 'Playfair Display', serif;
 }
-h2 {
+h2, p {
   font-family: 'Roboto', sans-serif;
+}
+
+.subtext {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 body {
