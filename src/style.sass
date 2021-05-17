@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,100;1,100&display=swap')
+
+$base-color: #F2ECE9
+
+:root
+	color: $base-color
+
+em
+	font-style: italic
+
+h1
+	font-family: 'Playfair Display', serif
+
+h2, p
+	font-family: 'Roboto', sans-serif
+
+a
+	color: $base-color
+	&:visited
+		color: $base-color
+
+.subtext
+	color: rgba(255, 255, 255, 0.5)
+
+body
+	padding: 0
+	margin: 2rem
+	background-color: #202124
+
+.container
+	text-align: center
+
+#booklet-container
+	margin: auto
+	overflow: hidden
+
+.flip-book
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5)
+	display: none
+	background-size: cover
+
+.page
+	border: solid 1px gray
+	overflow: hidden
+
+	.page-content
+		width: 100%
+		height: 100%
+		background-size: contain
+		background-position: center center
+		background-repeat: no-repeat
