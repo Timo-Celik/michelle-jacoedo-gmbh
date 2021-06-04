@@ -1,5 +1,5 @@
 {
-  "name": "michelle-jacoedo-gmbh",
+  "name": "michelle-booklet",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Timo-Celik/michelle-jacoedo-gmbh.git"
+    "url": "git+https://github.com/Timo-Celik/michelle-booklet.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Timo-Celik/michelle-jacoedo-gmbh/issues"
+    "url": "https://github.com/Timo-Celik/michelle-booklet/issues"
   },
-  "homepage": "https://github.com/Timo-Celik/michelle-jacoedo-gmbh#readme",
+  "homepage": "https://github.com/Timo-Celik/michelle-booklet#readme",
   "dependencies": {
     "animate.css": "^4.1.1",
     "normalize.css": "^8.0.1",
